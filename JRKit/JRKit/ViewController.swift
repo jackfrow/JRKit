@@ -16,7 +16,11 @@ class ViewController: UIViewController {
         
         print("uuid",JRUUID.GetUUID())
         
+        
     }
+    
+    
+    
 
 
 }

@@ -13,20 +13,12 @@
 		45262ABD26651A6D00DA183E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45262ABC26651A6D00DA183E /* Assets.xcassets */; };
 		45262AC026651A6D00DA183E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45262ABE26651A6D00DA183E /* LaunchScreen.storyboard */; };
 		45262ACB26651A6D00DA183E /* JRKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45262ACA26651A6D00DA183E /* JRKitTests.swift */; };
-		45262AD626651A6D00DA183E /* JRKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45262AD526651A6D00DA183E /* JRKitUITests.swift */; };
 		45262AEF26651B3800DA183E /* JRUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45262AEE26651B3800DA183E /* JRUUID.swift */; };
 		45262B0F2665248900DA183E /* YYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 45262B0D2665248900DA183E /* YYKeychain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		45262AC726651A6D00DA183E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45262AA826651A6D00DA183E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 45262AAF26651A6D00DA183E;
-			remoteInfo = JRKit;
-		};
-		45262AD226651A6D00DA183E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45262AA826651A6D00DA183E /* Project object */;
 			proxyType = 1;
@@ -46,7 +38,6 @@
 		45262AC626651A6D00DA183E /* JRKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45262ACA26651A6D00DA183E /* JRKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRKitTests.swift; sourceTree = "<group>"; };
 		45262ACC26651A6D00DA183E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45262AD126651A6D00DA183E /* JRKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45262AD526651A6D00DA183E /* JRKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRKitUITests.swift; sourceTree = "<group>"; };
 		45262AD726651A6D00DA183E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45262AEE26651B3800DA183E /* JRUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRUUID.swift; sourceTree = "<group>"; };
@@ -64,13 +55,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		45262AC326651A6D00DA183E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45262ACE26651A6D00DA183E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,7 +79,6 @@
 			children = (
 				45262AB026651A6D00DA183E /* JRKit.app */,
 				45262AC626651A6D00DA183E /* JRKitTests.xctest */,
-				45262AD126651A6D00DA183E /* JRKitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,24 +188,6 @@
 			productReference = 45262AC626651A6D00DA183E /* JRKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		45262AD026651A6D00DA183E /* JRKitUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45262AE026651A6D00DA183E /* Build configuration list for PBXNativeTarget "JRKitUITests" */;
-			buildPhases = (
-				45262ACD26651A6D00DA183E /* Sources */,
-				45262ACE26651A6D00DA183E /* Frameworks */,
-				45262ACF26651A6D00DA183E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				45262AD326651A6D00DA183E /* PBXTargetDependency */,
-			);
-			name = JRKitUITests;
-			productName = JRKitUITests;
-			productReference = 45262AD126651A6D00DA183E /* JRKitUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -237,10 +202,6 @@
 						LastSwiftMigration = 1240;
 					};
 					45262AC526651A6D00DA183E = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 45262AAF26651A6D00DA183E;
-					};
-					45262AD026651A6D00DA183E = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 45262AAF26651A6D00DA183E;
 					};
@@ -261,7 +222,6 @@
 			targets = (
 				45262AAF26651A6D00DA183E /* JRKit */,
 				45262AC526651A6D00DA183E /* JRKitTests */,
-				45262AD026651A6D00DA183E /* JRKitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,13 +238,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		45262AC426651A6D00DA183E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45262ACF26651A6D00DA183E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,14 +266,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45262ACD26651A6D00DA183E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45262AD626651A6D00DA183E /* JRKitUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -328,11 +273,6 @@
 			isa = PBXTargetDependency;
 			target = 45262AAF26651A6D00DA183E /* JRKit */;
 			targetProxy = 45262AC726651A6D00DA183E /* PBXContainerItemProxy */;
-		};
-		45262AD326651A6D00DA183E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 45262AAF26651A6D00DA183E /* JRKit */;
-			targetProxy = 45262AD226651A6D00DA183E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -481,6 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3N8VVRUX4V;
 				INFOPLIST_FILE = JRKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3N8VVRUX4V;
 				INFOPLIST_FILE = JRKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,6 +473,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jackfrow.JRKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JRKit/JRKit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRKit.app/JRKit";
@@ -553,49 +496,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jackfrow.JRKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JRKit/JRKit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRKit.app/JRKit";
-			};
-			name = Release;
-		};
-		45262AE126651A6D00DA183E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3N8VVRUX4V;
-				INFOPLIST_FILE = JRKitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = jackfrow.JRKitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JRKit;
-			};
-			name = Debug;
-		};
-		45262AE226651A6D00DA183E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3N8VVRUX4V;
-				INFOPLIST_FILE = JRKitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = jackfrow.JRKitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JRKit;
 			};
 			name = Release;
 		};
@@ -625,15 +529,6 @@
 			buildConfigurations = (
 				45262ADE26651A6D00DA183E /* Debug */,
 				45262ADF26651A6D00DA183E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		45262AE026651A6D00DA183E /* Build configuration list for PBXNativeTarget "JRKitUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45262AE126651A6D00DA183E /* Debug */,
-				45262AE226651A6D00DA183E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
