@@ -13,6 +13,8 @@ class JRKitTests: XCTestCase {
     
     func testUUID() {
         
+//        F6131420-0CE7-4E14-9824-0F295A5CE5C5
+        
         let uuid1 = JRUUID.GetUUID()
         print("uuid1",uuid1)
     

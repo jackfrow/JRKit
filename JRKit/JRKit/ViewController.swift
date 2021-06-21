@@ -6,22 +6,27 @@
 //
 
 import UIKit
+import Toast_Swift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       
+        let disk = GroupDisk()
+        disk.fileName = "jack"
+        disk.setObject(value: "123", key: "jack123")
         
-        print("uuid",JRUUID.GetUUID())
+    
+    }
+    
+    @IBAction func toast(_ sender: Any) {
         
+        
+        self.view.makeToast("sadjlkasjaskdljdksaljsakdlj",title:"jack")
         
     }
     
     
-    
-
-
 }
 

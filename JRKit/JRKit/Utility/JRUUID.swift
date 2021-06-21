@@ -13,8 +13,6 @@ let account = "UUID"
 
 
 
-
-
 //利用keychain实现uuid
 struct JRUUID {
     

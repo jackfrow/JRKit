@@ -1,0 +1,6 @@
+framework module Pods_JRKit {
+  umbrella header "Pods-JRKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

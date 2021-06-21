@@ -15,6 +15,9 @@
 		45262ACB26651A6D00DA183E /* JRKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45262ACA26651A6D00DA183E /* JRKitTests.swift */; };
 		45262AEF26651B3800DA183E /* JRUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45262AEE26651B3800DA183E /* JRUUID.swift */; };
 		45262B0F2665248900DA183E /* YYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 45262B0D2665248900DA183E /* YYKeychain.m */; };
+		45C8E3A8266670F800A2609F /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C8E3A7266670F800A2609F /* Cache.swift */; };
+		50498B633DAF75D23A445023 /* Pods_JRKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475D15C1A52FA44A956BE709 /* Pods_JRKitTests.framework */; };
+		71CAA19467A41D90A8C8C143 /* Pods_JRKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62099761DBD56AFBCD3475A /* Pods_JRKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28B71FFB0C8458F9F7313ECB /* Pods-JRKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRKit.debug.xcconfig"; path = "Target Support Files/Pods-JRKit/Pods-JRKit.debug.xcconfig"; sourceTree = "<group>"; };
+		429C21F286A0D849782E6890 /* Pods-JRKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRKitTests.debug.xcconfig"; path = "Target Support Files/Pods-JRKitTests/Pods-JRKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4441771A8427DEE46A92EA30 /* Pods-JRKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRKit.release.xcconfig"; path = "Target Support Files/Pods-JRKit/Pods-JRKit.release.xcconfig"; sourceTree = "<group>"; };
 		45262AB026651A6D00DA183E /* JRKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45262AB326651A6D00DA183E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45262AB726651A6D00DA183E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +50,10 @@
 		45262AFF266523F200DA183E /* JRKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JRKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		45262B0D2665248900DA183E /* YYKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKeychain.m; sourceTree = "<group>"; };
 		45262B0E2665248900DA183E /* YYKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKeychain.h; sourceTree = "<group>"; };
+		45C8E3A7266670F800A2609F /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		475D15C1A52FA44A956BE709 /* Pods_JRKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA63FECE4C01E265EC5DA3AD /* Pods-JRKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRKitTests.release.xcconfig"; path = "Target Support Files/Pods-JRKitTests/Pods-JRKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		F62099761DBD56AFBCD3475A /* Pods_JRKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CAA19467A41D90A8C8C143 /* Pods_JRKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50498B633DAF75D23A445023 /* Pods_JRKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +83,8 @@
 				45262AC926651A6D00DA183E /* JRKitTests */,
 				45262AD426651A6D00DA183E /* JRKitUITests */,
 				45262AB126651A6D00DA183E /* Products */,
+				A92B269F973F21E928615CB6 /* Pods */,
+				93E0C41415A279A1B9C5804D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +107,7 @@
 				45262AED26651AD200DA183E /* Utility */,
 				45262B062665240E00DA183E /* Supporting Files */,
 				45262AC126651A6D00DA183E /* Info.plist */,
+				45C8E3A7266670F800A2609F /* Cache.swift */,
 			);
 			path = JRKit;
 			sourceTree = "<group>";
@@ -150,6 +165,27 @@
 			path = YYKeychain;
 			sourceTree = "<group>";
 		};
+		93E0C41415A279A1B9C5804D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F62099761DBD56AFBCD3475A /* Pods_JRKit.framework */,
+				475D15C1A52FA44A956BE709 /* Pods_JRKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A92B269F973F21E928615CB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28B71FFB0C8458F9F7313ECB /* Pods-JRKit.debug.xcconfig */,
+				4441771A8427DEE46A92EA30 /* Pods-JRKit.release.xcconfig */,
+				429C21F286A0D849782E6890 /* Pods-JRKitTests.debug.xcconfig */,
+				CA63FECE4C01E265EC5DA3AD /* Pods-JRKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45262ADA26651A6D00DA183E /* Build configuration list for PBXNativeTarget "JRKit" */;
 			buildPhases = (
+				A6811E513983ED0285A01AB8 /* [CP] Check Pods Manifest.lock */,
 				45262AAC26651A6D00DA183E /* Sources */,
 				45262AAD26651A6D00DA183E /* Frameworks */,
 				45262AAE26651A6D00DA183E /* Resources */,
+				1A9AE30DD42FAFE3611E3A75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45262ADD26651A6D00DA183E /* Build configuration list for PBXNativeTarget "JRKitTests" */;
 			buildPhases = (
+				EB5530A90CB95A9355EEAAA1 /* [CP] Check Pods Manifest.lock */,
 				45262AC226651A6D00DA183E /* Sources */,
 				45262AC326651A6D00DA183E /* Frameworks */,
 				45262AC426651A6D00DA183E /* Resources */,
@@ -246,12 +285,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A9AE30DD42FAFE3611E3A75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JRKit/Pods-JRKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JRKit/Pods-JRKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JRKit/Pods-JRKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6811E513983ED0285A01AB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JRKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB5530A90CB95A9355EEAAA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JRKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45262AAC26651A6D00DA183E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				45262AB826651A6D00DA183E /* ViewController.swift in Sources */,
+				45C8E3A8266670F800A2609F /* Cache.swift in Sources */,
 				45262B0F2665248900DA183E /* YYKeychain.m in Sources */,
 				45262AEF26651B3800DA183E /* JRUUID.swift in Sources */,
 				45262AB426651A6D00DA183E /* AppDelegate.swift in Sources */,
@@ -414,6 +518,7 @@
 		};
 		45262ADB26651A6D00DA183E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B71FFB0C8458F9F7313ECB /* Pods-JRKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -437,6 +542,7 @@
 		};
 		45262ADC26651A6D00DA183E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4441771A8427DEE46A92EA30 /* Pods-JRKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +565,7 @@
 		};
 		45262ADE26651A6D00DA183E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429C21F286A0D849782E6890 /* Pods-JRKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +589,7 @@
 		};
 		45262ADF26651A6D00DA183E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA63FECE4C01E265EC5DA3AD /* Pods-JRKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
